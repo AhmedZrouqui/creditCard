@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card {
+  width: 480px;
+  height: 300px;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 40px;
+  background: linear-gradient(308.53deg, #37dea5 6.11%, #088a84 100%);
+  padding: 36px;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.card > .cardType {
+  position: absolute;
+}
+
+.card > .masterCard {
+  display: none;
+}
+
+.card > .cardNumber {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 120px;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+.card > .expiration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 36px;
+}
+
+.infos {
+  width: 480px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.infos .inputlist {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infos .inputlist .exp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+}
+
+.infos .inputlist input[type="text"],
+.infos select {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 42px;
+  outline: none;
+}
+/*# sourceMappingURL=global.css.map */
